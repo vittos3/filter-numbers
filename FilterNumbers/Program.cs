@@ -59,8 +59,8 @@
             return oddNumbers; 
         }
 
-        
-        static List<int> multipleNumber(List<int> numbers, int numberM)  {
+        //Retorna lista de números que são multiplos de numberM
+        static List<int> MultipleNumber(List<int> numbers, int numberM)  {
 
             List<int> multipleListNumbers = new List<int>();
 
