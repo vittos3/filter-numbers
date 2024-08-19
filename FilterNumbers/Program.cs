@@ -17,13 +17,13 @@
                 return;
             }
 
-            List<int> listNumbers = numbersListGenerate(start, end);
+            List<int> listNumbers = NumbersListGenerate(start, end);
 
             
         }
 
         //Cria lista de números pares
-        static List<int> evenNumbers(List<int> numbers)
+        static List<int> EvenNumbers(List<int> numbers)
         {
             List<int> evenNumbers = new List<int>();
 
@@ -34,9 +34,21 @@
             return evenNumbers; 
         }
 
+        //Cria lista de números ímpares     
+        static List<int> OddNumbers(List<int> numbers) 
+         {
+            List<int> oddNumbers = new List<int>();
+
+            foreach(int number in numbers) { 
+                if(number % 2 != 0)
+                    oddNumbers.Add(number);
+            }
+
+            return oddNumbers; 
+        }
 
         //Cria lista de números dentro do intervalo
-        static List<int> numbersListGenerate(int start, int end) 
+        static List<int> NumbersListGenerate(int start, int end) 
         {
             List<int> listInterval = new List<int>();  
 
