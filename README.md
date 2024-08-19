@@ -1,6 +1,4 @@
 # filter-numbers
-Ótima escolha! Vamos criar um desafio interessante sobre laços de repetição em C#. 
-
 ### Desafio Técnico
 
 **Título: Contagem Personalizada e Filtragem de Números**
