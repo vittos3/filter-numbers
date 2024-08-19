@@ -5,10 +5,6 @@
 
         }
 
-
-
-
-
         static void ListGenerate(int start, int end) 
         {
             if(start > end)  
@@ -22,7 +18,23 @@
             
         }
 
-        //Cria lista de números pares
+    
+
+        //Cria lista de números dentro do intervalo
+        static List<int> NumbersListGenerate(int start, int end) 
+        {
+            List<int> listInterval = new List<int>();  
+
+            for(int i = start; i <= end; i++) 
+            { 
+                listInterval.Add(i);
+            }
+                
+            return listInterval;
+        }
+
+
+            //Cria lista de números pares
         static List<int> EvenNumbers(List<int> numbers)
         {
             List<int> evenNumbers = new List<int>();
@@ -47,20 +59,21 @@
             return oddNumbers; 
         }
 
-        //Cria lista de números dentro do intervalo
-        static List<int> NumbersListGenerate(int start, int end) 
-        {
-            List<int> listInterval = new List<int>();  
-
-            for(int i = start; i <= end; i++) 
-            { 
-                listInterval.Add(i);
-            }
-                
-            return listInterval;
-        }
-
-
         
+        static List<int> multipleNumber(List<int> numbers, int numberM)  {
+
+            List<int> multipleListNumbers = new List<int>();
+
+
+            foreach (int number in numbers) {
+
+                if(number % numberM == 2) { 
+                    multipleListNumbers.Add(number);
+                }
+            }
+
+
+            return multipleListNumbers;
+        }
     }
 }
