@@ -3,9 +3,10 @@
     class Program { 
         static void Main(string[] args) {
 
+                ListGenerate(1,10,2);
         }
 
-        static void ListGenerate(int start, int end) 
+        static void ListGenerate(int start, int end, int codeList) 
         {
             if(start > end)  
             { 
@@ -14,18 +15,28 @@
             }
 
             List<int> listNumbers = NumbersListGenerate(start, end);
-
+            List<int> evenNumbers = EvenNumbers(listNumbers);
+            List<int> oddNumbers = OddNumbers(listNumbers); 
             
+
+            switch(codeList) { 
+                case 1: 
+                    Console.WriteLine(string.Join(", ", evenNumbers));
+                    break; 
+                case 2: 
+                    Console.WriteLine(string.Join(", ", oddNumbers));
+                    break; 
+            }
+
         }
 
-    
 
         //Cria lista de números dentro do intervalo
         static List<int> NumbersListGenerate(int start, int end) 
         {
-            List<int> listInterval = new List<int>();  
+            List<int> listInterval = [];  
 
-            for(int i = start; i <= end; i++) 
+            for(int i = start + 1; i < end; i++) 
             { 
                 listInterval.Add(i);
             }

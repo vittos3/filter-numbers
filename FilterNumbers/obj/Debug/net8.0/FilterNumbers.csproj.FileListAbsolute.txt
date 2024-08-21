@@ -1,0 +1,15 @@
+C:\filter-numbers\FilterNumbers\bin\Debug\net8.0\FilterNumbers.exe
+C:\filter-numbers\FilterNumbers\bin\Debug\net8.0\FilterNumbers.deps.json
+C:\filter-numbers\FilterNumbers\bin\Debug\net8.0\FilterNumbers.runtimeconfig.json
+C:\filter-numbers\FilterNumbers\bin\Debug\net8.0\FilterNumbers.dll
+C:\filter-numbers\FilterNumbers\bin\Debug\net8.0\FilterNumbers.pdb
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.AssemblyInfoInputs.cache
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.AssemblyInfo.cs
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.csproj.CoreCompileInputs.cache
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.sourcelink.json
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.dll
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\refint\FilterNumbers.dll
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.pdb
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\FilterNumbers.genruntimeconfig.cache
+C:\filter-numbers\FilterNumbers\obj\Debug\net8.0\ref\FilterNumbers.dll
